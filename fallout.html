@@ -64,7 +64,7 @@
 
 <body>
     <div id="loading">
-        <div>Loading Fallout...</div>
+        <div>Loading...</div>
         <div id="progress">Merging archive parts: 0%</div>
     </div>
     <canvas id="canvas" style="width: 50%; height: 50%; display: none; margin: 0 auto;" onClick="window.focus();" />
@@ -127,7 +127,7 @@
                     DosBoxLoader.nativeResolution(640, 400),
                     DosBoxLoader.mountZip("c",
                         DosBoxLoader.fetchFile("Software", zipUrl)),
-                    DosBoxLoader.startExe('./ROGUE.EXE')));
+                    DosBoxLoader.startExe('FALLOUT/FALLOUT.EXE')));
             dosbox.start({
                 waitAfterDownloading: false
             });
