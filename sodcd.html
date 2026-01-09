@@ -72,16 +72,16 @@
 
         var softs = {
 
-            SODCD: {
-                file: 'softs/SODCD.zip',
-                cmd: 'GAME.BAT',
+            SOD: {
+                file: 'softs/SOD.zip',
+                cmd: 'SOD.EXE',
                 pointer: true
             },
 
 
 
         }
-        var file = "SODCD";
+        var file = "SOD";
         if ($_GET('soft') != null) {
             if (softs[$_GET('soft')] != undefined) {
                 file = $_GET('soft')
